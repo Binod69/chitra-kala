@@ -1,0 +1,11 @@
+export { default as About } from './About/About';
+export { default as Carousels } from './Carousel/Carousel';
+export { default as Feedbacks } from './Feedbacks/Feedbacks';
+export { default as Experience } from './experience/Experience';
+export { default as Gallery } from './Gallery/Gallery';
+export { default as Hero } from './Hero/Hero';
+export { default as Services } from './Services/Services';
+export { default as Btn } from './ui/Btn';
+export { default as Model } from './ui/Model';
+export { default as Tech } from './Tech/Tech';
+export { default as Form } from './Form/Form';
