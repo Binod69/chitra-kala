@@ -20,10 +20,11 @@ const Form = () => {
     resolver: yupResolver(schema),
   });
 
+  const fetchApi = process.env.NEXT_PUBLIC_SEND_API_EMAIL;
   const onSubmit = async (data) => {
     try {
       setLoading(true);
-      const res = await fetch(process.env.NEXT_PUBLIC_SEND_EMAIL, {
+      const res = await fetch(fetchApi, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
